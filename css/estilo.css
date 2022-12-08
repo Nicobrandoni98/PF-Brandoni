@@ -10,11 +10,61 @@
 }
 .img-fluid {
     width: 100%;
-    height: 75vh;
+    height: 79vh;
 }
 .texto {
     color: azure;
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
-    height: 82px;
-    
+    height: 56px; 
+    animation-name: texto;   
+    animation-duration: 6s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes texto {      
+    0% {
+        color: rgb(151, 203, 223);
+    }
+    15% {
+        color: rgb(13, 128, 173);
+    }
+    30% {
+        color:  rgb(74, 167, 176);
+    }
+    45% {
+        color:  rgb(66, 216, 181)
+    }
+    60% {
+        color:  rgb(84, 182, 128)
+    }
+    75% {
+        color:  rgb(61, 209, 110)
+    }
+    90% {
+        color:  rgb(241, 237, 186)
+    }
+    100% {
+        color:  rgb(241, 237, 186)
+    }
+
+}
+.navbar-brand {
+    transition: 2s;
+}
+.navbar-brand:hover {
+    font-style: oblique;
+}
+.bg-light {
+    background: rgb(106, 160, 207) !important;
+}
+.h-100 {
+    transition: .5s;
+}
+.h-100:hover{
+    transform: scale(1.04);
+    box-shadow: rgb(255, 255, 255) 0px 5px, rgb(255, 255, 255) 0px 10px, rgb(255, 255, 255) 0px 15px, rgb(236, 239, 240) 0px 20px, rgb(0, 0, 0) 0px 25px;
+}
+.container-noticias {
 }
