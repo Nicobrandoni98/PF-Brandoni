@@ -1,0 +1,48 @@
+@keyframes texto {      
+    0% {
+        color: rgb(151, 203, 223);
+    }
+    15% {
+        color: rgb(13, 128, 173);
+    }
+    30% {
+        color:  rgb(74, 167, 176);
+    }
+    45% {
+        color:  rgb(66, 216, 181)
+    }
+    60% {
+        color:  rgb(84, 182, 128)
+    }
+    75% {
+        color:  rgb(61, 209, 110)
+    }
+    90% {
+        color:  rgb(241, 237, 186)
+    }
+    100% {
+        color:  rgb(241, 237, 186)
+    }
+
+}
+.navbar-brand {
+    transition: 2s;
+}
+.texto {
+    color: azure;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    height: 56px; 
+    animation-name: texto;   
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.h-100 {
+    transition: .5s;
+}
+.h-100:hover{
+    transform: scale(1.03);
+    box-shadow: $color-secundario 4px 0px;
+}
