@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap'); 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$color-primario: rgb(106, 160, 207);
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+.img-fluid {
+    width: 100%;
+    height: 75vh;
+}
+.texto {
+    color: azure;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    height: 56px; 
+    animation-name: texto;   
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes texto {      
+    0% {
+        color: rgb(151, 203, 223);
+    }
+    15% {
+        color: rgb(13, 128, 173);
+    }
+    30% {
+        color:  rgb(74, 167, 176);
+    }
+    45% {
+        color:  rgb(66, 216, 181)
+    }
+    60% {
+        color:  rgb(84, 182, 128)
+    }
+    75% {
+        color:  rgb(61, 209, 110)
+    }
+    90% {
+        color:  rgb(241, 237, 186)
+    }
+    100% {
+        color:  rgb(241, 237, 186)
+    }
+
+}
+.navbar-brand {
+    transition: 2s;
+}
+.bg-light {
+    background: $color-primario !important;
+}
+.h-100 {
+    transition: .5s;
+}
+.h-100:hover{
+    transform: scale(1.04);
+    box-shadow: rgba(57, 228, 237, 0.787) 0px 5px, rgb(38, 186, 194) 0px 10px, rgba(22, 67, 135, 0.794) 0px 15px, rgb(4, 30, 46) 0px 20px, rgb(0, 0, 0) 0px 25px;
+}
+.container-noticias {
+    background-color: rgb(168, 195, 209);
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1.5%;
+    width: 60%;
+    height: 52vh;
+    border: 3px solid black;
+}
+.imagen-noticia {
+    width: 180px;
+    height: 170px;
+    float: right;
+}
+.pie {
+    background-color: $color-primario;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: smaller;
+}
