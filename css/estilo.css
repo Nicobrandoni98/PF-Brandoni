@@ -10,7 +10,7 @@
 
 .navbar-brand { transition: 2s; }
 
-.texto { color: azure; font-family: 'Noto Sans Mende Kikakui', sans-serif; height: 40px; animation-name: texto; animation-duration: 4s; animation-delay: 0; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate-reverse; }
+.texto { color: azure; font-family: 'Noto Sans Mende Kikakui', sans-serif; height: 34px; animation-name: texto; animation-duration: 4s; animation-delay: 0; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate-reverse; }
 
 .h-100 { transition: .5s; }
 
